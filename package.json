@@ -1,0 +1,21 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "Node server for socket io",
+  "main": "server.js",
+  "dependencies": {
+    "aws-sdk": "^2.217.1",
+    "express": "^4.15.5",
+    "mysql": "^2.15.0",
+    "redis": "^2.8.0",
+    "socket.io": "^2.0.3",
+    "socket.io-redis": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
